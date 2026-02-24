@@ -1,0 +1,16 @@
+{
+  "name": "lightstreamer-mock-server",
+  "version": "1.0.0",
+  "description": "Mock Lightstreamer TLCP server for iOS SDK development",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-sdk.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "lightstreamer-client-node": "^9.2.2"
+  }
+}
